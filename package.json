@@ -1,7 +1,7 @@
 {
   "name": "ember-loading-route",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Set common the loading route for different route levels",
   "directories": {
     "doc": "doc",
     "test": "tests"
