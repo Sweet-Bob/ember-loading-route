@@ -2,6 +2,8 @@
 
 Set common the loading route for different route levels
 
+Demo at [sweet-bob.github.io/ember-loading-route](http://sweet-bob.github.io/ember-loading-route)
+
 ### Reason
 ---
 For example you have 3 level of routes:
