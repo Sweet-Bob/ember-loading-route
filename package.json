@@ -47,6 +47,10 @@
     "ember-cli-babel": "^5.1.6"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "http://sweet-bob.github.io/ember-loading-route",
+    "versionCompatibility": {
+      "ember": ">=2.4.0"
+    }
   }
 }
