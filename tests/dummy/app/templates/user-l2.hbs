@@ -1,0 +1,37 @@
+
+<section style="flex: 1 1 auto; display: flex;">
+
+  <!-- Sidebar -->
+  <aside style="border: 1px solid blue; margin: 5px;">
+    <h3>Sidebar</h3>
+    <ul>
+      <li>Sidebar link 1</li>
+      <li>Sidebar link 2</li>
+      <li>Sidebar link 3</li>
+      <li>Sidebar link 4</li>
+      <li>Sidebar link 5</li>
+    </ul>
+  </aside>
+
+  <section style="flex: 1 0 auto; margin: 5px; display: flex; flex-direction: column;">
+
+    <header style="flex: 0 0 auto; padding: 10px 0;">
+
+      <strong>Menu (Second level): </strong>
+
+      {{#link-to "user-l2.dashboard-l3"}}
+        Dashboard |
+      {{/link-to}}
+
+      {{#link-to "user-l2.settings-l3"}}
+        Settings
+      {{/link-to}}
+    </header>
+
+    <section style="border: 1px solid red; padding: 0 10px 10px; flex: 1 1 auto; display: flex; flex-direction: column;">
+      {{outlet}}
+    </section>
+
+  </section>
+
+</section>

@@ -1,0 +1,12 @@
+<h3 style="flex: 0 0 auto;">Dashboard</h3>
+
+<nav style="flex: 0 0 auto;">
+  <strong>Menu (Third level): </strong>
+  {{#link-to "user-l2.dashboard-l3.index"}} Index | {{/link-to}}
+  {{#link-to "user-l2.dashboard-l3.about"}} About {{/link-to}}
+</nav>
+
+<div style="border: 1px solid purple; margin: 10px; padding: 0 10px 10px; flex: 1 1 auto;">
+  <h4>Third Level</h4>
+  {{outlet}}
+</div>
