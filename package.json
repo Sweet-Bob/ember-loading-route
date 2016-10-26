@@ -1,6 +1,6 @@
 {
   "name": "ember-loading-route",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Set common the loading route for different route levels",
   "directories": {
     "doc": "doc",
