@@ -39,7 +39,7 @@ export function initialize() {
 
     let LoadingRoute = Route.extend({ templateName });
 
-    let routeNames = Object.keys(mainRouter.router.recognizer.names);
+    let routeNames = Object.keys(mainRouter._routerMicrolib.recognizer.names);
 
     routeNames.forEach(function(routeName) {
 
