@@ -13,7 +13,7 @@ export function initialize() {
   let options = new Options(ENV);
 
   if (options.isPluginEnabled()) {
-    init();
+    init.call(this);
   }
 
   function init() {
