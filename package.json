@@ -1,5 +1,5 @@
 {
-  "name": "ember-loading-route",
+  "name": "@mars/ember-loading-route",
   "version": "1.0.0",
   "description": "Set common the loading route for different route levels",
   "directories": {
@@ -52,5 +52,8 @@
     "versionCompatibility": {
       "ember": ">=2.4.0"
     }
+  },
+  "publishConfig": {
+    "@mars:registry":"https://git.ipoteka.digital/api/v4/projects/81/packages/npm/"
   }
 }
