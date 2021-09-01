@@ -1,4 +1,4 @@
-import Route from 'ember-route';
+import Route from '@ember/routing/route';
 import ENV from '../config/environment';
 import Options from 'ember-loading-route/options';
 
@@ -7,7 +7,7 @@ import Options from 'ember-loading-route/options';
  */
 export function initialize() {
 
-  let [ app ] = arguments;
+  let [app] = arguments;
 
   let mainRouter = app.lookup('router:main');
   let options = new Options(ENV);
@@ -35,13 +35,13 @@ export function initialize() {
    */
   function setLoadingRoutesFromConfig(routeConfig) {
 
-    let { templateName, routeLevel, condition } = routeConfig;
+    let {templateName, routeLevel, condition} = routeConfig;
 
-    let LoadingRoute = Route.extend({ templateName });
+    let LoadingRoute = Route.extend({templateName});
 
     let routeNames = Object.keys(mainRouter._routerMicrolib.recognizer.names);
 
-    routeNames.forEach(function(routeName) {
+    routeNames.forEach(function (routeName) {
 
       if (condition) {
         setRouteByCondition(routeName);
