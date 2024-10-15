@@ -2,7 +2,7 @@
 
 Set common the loading route for different route levels
 
-Demo at [sweet-bob.github.io/ember-loading-route](http://sweet-bob.github.io/ember-loading-route)
+Demo at [spr1ne.github.io/ember-loading-route](http://spr1ne.github.io/ember-loading-route)
 
 ### Reason
 ---
